@@ -27,7 +27,7 @@ A lightweight Windows desktop widget for tracking real-time commodity prices.
 
 - **Real-Time Price Tracking** — Monitor commodity prices directly from your desktop.
 - **Lightweight Widget** — Minimal resource usage; stays out of your way while keeping you informed.
-- **Windows Native** — Packaged as an MSIX installer for a clean, modern Windows installation experience.
+- **Windows Native** — Available as a standalone executable (.exe) and an MSIX package for Microsoft Store distribution.
 - **x64 Support** — Built for 64-bit Windows systems.
 
 ## System Requirements
@@ -40,24 +40,28 @@ A lightweight Windows desktop widget for tracking real-time commodity prices.
 
 ## Installation
 
-### Download
+### Option 1: Standalone Executable (Recommended)
 
-Download the latest MSIX installer from the [Releases](https://github.com/tec1907/Price-Widget/releases) page:
+Download and run the `.exe` file directly — no installation required:
+
+- **[FiyatWidget.exe](https://github.com/tec1907/Price-Widget/releases/download/v1.0.0/FiyatWidget.exe)**
+
+1. Download `FiyatWidget.exe` from the link above.
+2. Double-click the file to run the application.
+
+> **Note:** If Windows SmartScreen warns you about the file, click **More info** → **Run anyway** to proceed.
+
+### Option 2: MSIX Package (Microsoft Store)
+
+The `.msix` package is intended for distribution through the **Microsoft Store**.
 
 - **[PriceWidget-v1.0.0-x64.msix](https://github.com/tec1907/Price-Widget/releases/download/v1.0.0/PriceWidget-v1.0.0-x64.msix)**
 
-### Install
-
-1. Download the `.msix` file from the link above.
-2. Double-click the downloaded file to open the MSIX installer.
-3. Follow the on-screen prompts to complete the installation.
-4. Once installed, launch **Price-Widget** from the Start menu or desktop shortcut.
-
-> **Note:** If Windows SmartScreen warns you about the installer, click **More info** → **Run anyway** to proceed.
+> **🏪 Coming Soon:** Price-Widget will be available on the **Microsoft Store** soon. Stay tuned!
 
 ## Usage
 
-After installation, launch Price-Widget from the Start menu. The widget will appear on your desktop, displaying current commodity prices. The widget is designed to stay compact and unobtrusive while providing quick access to the latest price data.
+After downloading, run `FiyatWidget.exe` directly. The widget will appear on your desktop, displaying current commodity prices. The widget is designed to stay compact and unobtrusive while providing quick access to the latest price data.
 
 ## Uninstallation
 
